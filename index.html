@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="content" content="width=device-width, initial-scale=1.0">
+        <title>
+            Week 2 assignment on Website Development-HTML5 Elements
+        </title>
+    </head>
+    <body>
+        <!-- Ordered List Example-->
+         <h2>Ordered List with Roman Numbers</h2>
+         <ol type="I">
+            <li>Images</li>
+            <li>Lists</li>
+            <li>Tables</li>
+            <li>Forms</li>
+            <li>Input types</li>
+         </ol>
+
+         <!-- Insert an External Image -->
+          <h2>External Image</h2>
+          <img src="Photo by Pixabay from Pexels: https://www.pexels.com/photo/clear-light-bulb-placed-on-chalkboard-355952/" alt="Pexel Photo" width="600" height="500">
+
+          <!-- Creating contact tables -->
+           <h2>Contacts Tables</h2>
+           <table border="1">
+            <thead>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Emails</th>
+            </thead>
+            <tr>
+                <td>Cynthia Female</td>
+                <td>Nairobi</td>
+                <td>+25470000000</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Cynthia Female</td>
+                <td>Nairobi</td>
+                <td>+25470000000</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Cynthia Female</td>
+                <td>Nairobi</td>
+                <td>+25470000000</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Cynthia Female</td>
+                <td>Nairobi</td>
+                <td>+25470000000</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Cynthia Female</td>
+                <td>Nairobi</td>
+                <td>+25470000000</td>
+                <td>example@gmail.com</td>
+            </tr>
+           </table>
+           <!-- Registration form-->
+            <h2> Registration Form </h2>
+            <form action="#" method="post">
+                <label for="name"> Name: </label>
+                <input type="name" id="name" name="name" placeholder="Enter your name:" required>
+                <br><br>
+
+                <label for="email"> Email Address: </label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <br><br>
+
+                <label for="Password"> Password: </label>
+                <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
+                <br><br>
+
+                <label for="dob"> Date of Birth: </label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <fieldset>
+                    <h2>Button, Dropdown and Other Extra Attributes</h2>
+                    <!-- Dropdown uses Select-->
+                     <label for="Country"> Country: </label>
+                     <select id="country" name="country" required>
+                        <option value=""> Select your Country</option>
+                        <option value="kenya"> Kenya </option>
+                        <option value="Uganda"> Uganda </option>
+                        <option value="Tanzania"> Tanzania </option>
+                        <option value="Rwanda"> Rwanda </option>
+                     </select>
+                     <br><br>
+
+                     <!-- Checkboxes -->
+                      <label for="hobby">Hobbies</label>
+                      <br><br>
+                      <input type="checkbox" id="music" name="hobby" value="Listening to Music">
+                      <label>Listening to music</label>
+                      <br>
+
+                      <input type="checkbox" id="reading" name="hobby" value="Reading Novels">
+                      <label for="reading">Reading Novels</label>
+                      <br>
+
+                      <input type="checkbox" id="swimming" name="hobby" value="Swimming">
+                      <label for="swimming">Swimming</label>
+                      <br><br>
+
+                </fieldset>
+                <br><br>
+                
+                <p>Please select your age:</p>
+                <input type="radio" id="age1" name="age" value="30">
+                <label for="age1">0 - 30</label><br>
+                <input type="radio" id="age2" name="age" value="60">
+                <label for="age2">31 - 60</label><br>  
+                <input type="radio" id="age3" name="age" value="100">
+                <label for="age3">61 - 100</label><br><br>
+                <input type="submit" value="Submit">
+
+                <input type="submit" value="Register">
+            </form>
+            <br><br>
+            
+            <!-- Adding Multimedia Effects-->
+             <h2> Introducing Multimedia Effect of Audio & Video </h2>
+             <h3>Audio Element</h3>
+             <audio controls>
+                <source src="song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+             </audio>
+
+             <h3>Video Element</h3>
+             <video controls width="600" height="400">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+             </video>
+
+
+    </body>
+</html>
